@@ -1,0 +1,28 @@
+page-home {
+    .divImage{
+        text-align: center;
+        img{
+            height:260px;
+        }
+        p{
+            font-size: 2.5em;
+            color:red;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+    .btndiv{
+
+        text-align: center;
+        button{
+            border-radius: 100px;
+            width:60%;
+        }
+        p{
+            color:grey;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding:10px;
+
+
+        }
+    }
+}

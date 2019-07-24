@@ -1,0 +1,55 @@
+page-list {
+    .div1{
+        height:250px;
+        width:300px;
+        margin:20px;
+        text-align: center;
+        box-shadow: 2px 15px 20px -15px rgb(53, 53, 53);
+        border-radius: 10px;
+        img{
+            height:150px;
+            padding-left:10px;
+            padding-top:10px;
+          
+        }
+    }
+    .div2{
+      height:250px;
+      margin:20px;
+      width:300px;
+      box-shadow: 2px 15px 20px -15px rgb(53, 53, 53);
+      border-radius: 10px;
+      text-align: center;
+      img{
+          height:140px;
+          padding-left:10px;
+          padding-top:10px;
+        
+      }
+  }
+  .maindiv{
+      margin:10px;
+  }
+  .card-title{
+      text-align: center;
+      font-size: 1.7em;
+      font-family: 'Crimson Text', serif;
+      color:#014C9F;
+  }
+  .top{
+      background-color: #014C9F;
+      height:10%;
+      width:100%;
+      img{
+          height:50px;
+          padding-left:10px;
+          padding-top:10px;
+      }
+  }
+  .bottom{
+    height:90%;
+    width:100%;
+  }
+
+  }
+  

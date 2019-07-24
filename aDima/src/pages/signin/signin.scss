@@ -1,0 +1,51 @@
+page-signin {
+    .divImage{
+        text-align: center;
+        img{
+            height:200px;
+        }
+        p{
+            font-size: 2.5em;
+            color:red;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+    .btnSign{
+        height: 40px;
+        border-radius: 100px;
+        width:50%;
+        text-align: center;
+    }
+    #anim1{
+        box-shadow: 1px 2px #014C9F;
+        border-radius: 100px;
+        width:80%;  
+        text-align: center;
+        margin:10px auto;
+        padding-left:10px;
+    }
+    #anim2{
+        border-radius: 100px;
+        width:60%;  
+
+    }
+    .moveCont{
+        text-align: center;
+        margin-top:35px;
+  
+    }
+    .movebtn{
+        border:2px solid green;
+        text-align: center;
+    }
+    span{
+        justify-content: center;
+    }
+    .help-block{
+        justify-content: center;
+    }
+   .theCard{
+       text-align: center;
+   }
+
+}

@@ -1,0 +1,38 @@
+page-make-request {
+    .maindiv{
+        height:70%;
+        width:100%;
+        text-align: center;
+        // border:2px solid red;
+
+        button{
+            border-radius: 100px;
+            width:60%;
+            height:30px;
+        }
+
+        p{
+            text-transform: capitalize;
+            font-size: 1.5em;
+        }
+    }
+    h2{
+        color:black;
+    }
+
+    .top{
+        background-color: #014C9F;
+        height:10%;
+        width:100%;
+        img{
+            height:50px;
+            padding-left:10px;
+            padding-top:10px;
+        }
+    }
+    .bottom{
+      height:90%;
+      width:100%;
+    }
+    }
+    

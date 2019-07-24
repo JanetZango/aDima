@@ -1,0 +1,24 @@
+<ion-content>
+    <div>
+      <div class="divImage">
+        <img src="../../assets/logo.jpg">
+        <p>aDima</p>
+      </div>
+      <div class="theCard">
+          <ion-input placeholder="Email" id="anim1" name="email" #email="ngModel" type="email" ngModel required></ion-input>
+          <span style="color: red" *ngIf="!email.valid && email.touched" class="help-block">Please enter your email</span>
+          <ion-input placeholder="Password" id="anim1" name="password" #password="ngModel" type="password"
+            class="user-input" required ngModel></ion-input>
+          <span style="color: red" *ngIf="!password.valid && password.touched" class="help-block">Please enter
+            password</span>
+      </div>
+
+    </div>
+    <div class="moveCont">
+      <button class="btnSign" id="anim2" ion-button  (click)="SignIn(email.value,password.value)">SIGN IN</button>
+      <button ion-button clear id="forgotPassword" (click)="forgotpassword()">Forgot Password</button>
+      <button class="changebtn" ion-button clear (click)="gotoRegister()">You dont have an account?
+        &nbsp;<b>Sign Up</b>
+      </button>
+    </div>
+</ion-content>

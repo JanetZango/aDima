@@ -1,0 +1,52 @@
+<ion-content>
+  <div *ngFor="let a of arr">
+    <div class="profilemaindiv">
+      <img src="{{a.downloadurl}}">
+    </div>
+    <div class="condiv">
+      <p class="name">{{a.name}}</p>
+      <p>{{a.email}}</p>
+    </div>
+
+  </div>
+  <div>
+    <div padding>
+      <ion-segment [(ngModel)]="pet">
+        <ion-segment-button value="inbox">
+          Inbox Request
+        </ion-segment-button>
+        <ion-segment-button value="associate">
+          Associate Payment
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+
+
+    <div [ngSwitch]="pet">
+      <ion-list *ngSwitchCase="'associate'">
+        <ion-item>
+          <ion-thumbnail item-start>
+          </ion-thumbnail>
+          <h2>Ruby</h2>
+        </ion-item>
+        ...
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'inbox'">
+        <div class="conMess">
+          <div *ngFor="let x of requestArr" class="messDiv">
+            <div class="imgdi2v">
+                <img src="{{x.img}}">
+            </div>
+            <div class="condivmess">
+                <p class="p">{{x.name}}</p>
+                <p class="p">{{x.message}}</p>
+            </div>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+
+  </div>
+
+</ion-content>

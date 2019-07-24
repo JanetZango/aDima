@@ -1,0 +1,23 @@
+<ion-content>
+  <div class="top">
+ <img [src]="img" (click)="profile()"/>
+  </div>
+  <div class="bottom">
+      <div class="maindiv">
+          <div class="div1">
+              <img src="../../assets/mpney.png">
+            <p class="card-title">Peer to Peer</p>
+          </div>
+          <div class="div2" (click)="gotoAssociate()">
+            <img src="../../assets/PSRP-Meeting.jpg"> 
+            <p class="card-title">Market Place</p>
+          </div>
+        </div>
+  </div>
+
+  <ion-fab bottom right (click)="logOut()">
+    <button ion-fab mini>
+      <ion-icon name="add"></ion-icon>
+    </button>
+  </ion-fab> 
+</ion-content>

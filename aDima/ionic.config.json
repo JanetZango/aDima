@@ -1,0 +1,7 @@
+{
+  "name": "aDima",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
